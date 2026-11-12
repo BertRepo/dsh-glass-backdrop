@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1200" viewBox="0 0 1920 1200" role="img" aria-label="Original abstract deep sea with cyan currents and rain">
+  <!-- 原创抽象深海 / Original generated artwork. MIT © 2026 BertRepo. -->
+  <defs>
+    <linearGradient id="depth" x2="0.2" y2="1"><stop stop-color="#163e59"/><stop offset=".48" stop-color="#0b263e"/><stop offset="1" stop-color="#030e20"/></linearGradient>
+    <radialGradient id="current" cx=".68" cy=".15" r=".8"><stop stop-color="#52b9ca" stop-opacity=".45"/><stop offset=".55" stop-color="#23768f" stop-opacity=".13"/><stop offset="1" stop-color="#052037" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ray" x2=".3" y2="1"><stop stop-color="#a5e9e2" stop-opacity=".18"/><stop offset="1" stop-color="#41a9c3" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rain" x2="0" y2="1"><stop stop-color="#b6e9ef" stop-opacity="0"/><stop offset=".7" stop-color="#9fdbed" stop-opacity=".3"/><stop offset="1" stop-color="#4d91b0" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#depth)"/>
+  <rect width="1920" height="1200" fill="url(#current)"/>
+  <g fill="url(#ray)"><path d="M180 0H350L1060 1200H800Z"/><path d="M720 0H790L1400 1200H1230Z"/><path d="M1100 0H1270L1850 1200H1600Z"/></g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-100 850C300 580 660 1050 1100 710S1700 520 2020 720" stroke="#3c9cb2" stroke-opacity=".16" stroke-width="4"/>
+    <path d="M-80 920C420 660 690 1100 1170 800S1740 620 2000 770" stroke="#5ac5bf" stroke-opacity=".13" stroke-width="2"/>
+    <path d="M-100 1050C310 830 780 1150 1300 920S1720 800 2040 900" stroke="#4694bb" stroke-opacity=".15" stroke-width="6"/>
+    <g stroke="url(#rain)" stroke-width="2"><path d="M140 70v180m170 290v125m240-530v220m280 100v240m190-630v180m180 410v150m210-350v210m220 190v240m-1410 150v140m1480-850v160"/></g>
+  </g>
+  <g fill="#b8edf1" opacity=".26"><circle cx="265" cy="380" r="2"/><circle cx="560" cy="770" r="3"/><circle cx="830" cy="400" r="2"/><circle cx="1190" cy="890" r="2"/><circle cx="1510" cy="380" r="3"/><circle cx="1715" cy="740" r="2"/><circle cx="980" cy="190" r="2"/></g>
+</svg>

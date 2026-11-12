@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Rain running down wet glass">
+  <defs>
+    <linearGradient id="pane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a5670"/>
+      <stop offset="52%" stop-color="#14304a"/>
+      <stop offset="100%" stop-color="#07141f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.18" r="0.85">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="drop" cx="0.34" cy="0.28" r="0.78">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="66%" stop-color="#c8e6ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c8e6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#pane)"/>
+  <path d="M-10 108 L138 34 L138 62 L-10 136 Z" fill="#ffffff" opacity="0.045"/>
+  <rect width="128" height="128" rx="28" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.14" stroke-width="1">
+    <line x1="34" y1="54" x2="34" y2="74"/>
+    <line x1="92" y1="64" x2="92" y2="92"/>
+  </g>
+  <g fill="url(#drop)" stroke="#dff1ff" stroke-opacity="0.35" stroke-width="0.8">
+    <circle cx="34" cy="44" r="9"/>
+    <circle cx="58" cy="30" r="5"/>
+    <circle cx="92" cy="52" r="12"/>
+    <circle cx="74" cy="80" r="6"/>
+    <circle cx="26" cy="86" r="5"/>
+    <circle cx="104" cy="98" r="7"/>
+    <circle cx="48" cy="102" r="4"/>
+  </g>
+</svg>

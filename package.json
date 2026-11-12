@@ -1,0 +1,24 @@
+{
+  "name": "dsh-glass-backdrop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness 的原创深海鲸鱼与雨玻璃背景 / Original deep-sea whale and wet-glass overlay for DSH.",
+  "license": "MIT",
+  "author": "BertRepo",
+  "repository": { "type": "git", "url": "git+https://github.com/BertRepo/dsh-glass-backdrop.git" },
+  "homepage": "https://github.com/BertRepo/dsh-glass-backdrop#readme",
+  "bugs": { "url": "https://github.com/BertRepo/dsh-glass-backdrop/issues" },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "backdrop", "glass", "whale"],
+  "exports": { ".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "client.js", "client.src.js", "build.mjs", "scripts/*.mjs", "cordis.patch.yml", "locale/*.json", "icon.svg", "assets/deep-sea-rain.svg", "README.md", "LICENSE", "ATTRIBUTION.md"],
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs",
+    "pack": "npm run build && npm run check && npm pack --ignore-scripts && node scripts/verify-pack.mjs dsh-glass-backdrop-1.0.0.tgz",
+    "verify-pack": "node scripts/verify-pack.mjs"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-layout", "@deepseek-ai/dsh-client-ui-settings", "@deepseek-ai/dsh-client-locale"] }
+  }
+}
